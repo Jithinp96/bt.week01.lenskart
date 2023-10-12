@@ -1,0 +1,643 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*---------HEAD--------------*/
+.head{
+    
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.head .top{
+    display: flex;
+}
+
+.head .top ul{
+    display: flex;
+    list-style: none;
+    
+}/*---------LOGO PART--------------*/
+.head .logo_part{
+    display: flex; 
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.head .logo_part .phone-number{
+    padding-top: 23px;
+}
+
+.head .logo_part .search{
+    padding-top: 15px;
+}
+.head .logo_part .search input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.head .logo_part .text{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+/*----------ITEMS LIST-----------*/
+.head .topb{
+    display: flex;
+    padding: 20px;
+}
+
+.head .topb .topb_text{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.topb_text p{
+    padding-top: 10px;
+}
+
+.head .topb .topb_image{
+    text-align: right;
+    width: 300px;
+    padding-top: 7px;
+    padding-right: 10px;
+    
+}
+
+.head .topb .topb_image img{
+    width: 47px;
+    height: 25px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.body{
+    padding-top: 200px;
+}
+
+/*-------- ITEM MENU ------------*/
+
+.items_menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center ;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: 170px;
+
+}
+
+.items_menu img{
+    width: 70%;
+}
+
+.items_menu .eyeglasses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.eyeglasses:hover{
+    transform: scale(.9);
+}
+
+.items_menu .sunglasses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.sunglasses:hover{
+    transform: scale(.9);
+}
+
+.items_menu .computerglasses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.computerglasses:hover{
+    transform: scale(.9);
+}
+
+.items_menu .contactlenses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.contactlenses:hover{
+    transform: scale(.9);
+}
+
+.items_menu .powersunglasses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.powersunglasses:hover{
+    transform: scale(.9);
+}
+
+.items_menu .progressivelenses{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.progressivelenses:hover{
+    transform: scale(.9);
+}
+.items_menu p{
+    padding-top: 20px;
+    color: rgb(116, 116, 116);
+}
+
+.banner_slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.domore img{
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*------------WEAR THE TREND-------------------*/
+.weartrend{
+    padding: 20px;
+    display: flex;
+}
+.weartrend .text .wear{
+    font-size: 50px;
+    font-weight:lighter;
+
+}
+.weartrend .text .trend{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.weartrend .images{
+    display: flex;
+    padding: 40px;
+    padding-left: 100px;
+    text-align: center;
+}
+.weartrend img{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.weartrend p{
+    padding-bottom: 20px;
+}
+.weartrend button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(29, 211, 231);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/*--------------MOUNI ROY--------------*/
+.mouniroy h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+}
+.mouniroy .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.mouniroy .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 4cqw 0px;
+}
+
+/*----------SHARK TANK----------*/
+
+.sharktank h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    
+}
+.sharktank .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.sharktank .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+/*-------------KARAN JOHAR-----------*/
+.karanjohar h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    
+}
+.karanjohar .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.karanjohar .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+/*----------TRENDING SUNGLASS-------------*/
+.trendingsunglass h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    
+}
+.trendingsunglass .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.trendingsunglass .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+.ojos h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+    
+}
+.ojos .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.ojos .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+.colorlenses h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin:10px 0 20px;
+}
+.colorlenses .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+.colorlenses .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+/*---------FIND THE PERFECT FIT----------*/
+.findtheperfectfit h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+}
+.findtheperfectfit .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.findtheperfectfit .image{
+    display: flex;
+    text-align: right;
+    padding:30px 0px 40px 0px;
+}
+
+.findtheperfectfit .image .image-1stcolumn .perfectfit-eyeglass img{
+    height: 60%;
+    width: 60%;
+    padding: 5px;
+}
+
+.findtheperfectfit .image .image-1stcolumn .perfectfit-powersunglass img{
+    height: 60%;
+    width: 60%;
+    padding: 5px;
+}
+
+.findtheperfectfit .image .image-2ndcolumn .perfectfit-bluglass img{
+    height: 60%;
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+.findtheperfectfit .image .image-2ndcolumn .perfectfit-sunglass img{
+    height: 60%;
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+.findtheperfectfit .image .image-2ndcolumn .perfectfit-computerglass img{
+    height: 60%;
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+
+/*---------OJOS 2.0----------------*/
+.ojos2 h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin:10px 0 20px;
+    
+}
+.ojos2 .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.ojos2 .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+    
+}
+
+/*---------------CONTACT LENSES & MORE-------------*/
+.contactlens-more h4{
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin:10px 0 20px;
+}
+.contactlens-more .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+.contactlens-more .image{
+    display: flex;
+    justify-content: center;
+    padding:30px 0px 0px 0px;
+}
+.contactlens-more .image img{
+    width: 500px;
+    padding: 5px;
+    
+}
+
+/*----------------BUY IT YOUR WAY--------------*/
+.buyityourway h4{
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d6d5d5;
+    line-height:0.1em;
+    margin: 100px 0 50px 0;
+    text-align: center;
+
+}
+.buyityourway .text h4 span{
+    background:#fff;
+    padding:0 10px;
+}
+
+.buyityourway .image {
+    padding:30px 0px 40px 0px;
+}
+
+
+
+.ourbrands h4 {
+    width:100%;
+    text-align: center;
+    font-family: LKFuturaStd-Medium;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin:10px 0 20px;
+    
+}
+.ourbrands .text h4 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.ourbrands .image img{
+    width: 100%;
+    height: 100%;
+    padding:30px 0px 40px 0px;
+}
+
+/*-----------YOUTUBE-----------------*/
+.youtube-container{
+    background-color: rgb(255, 255, 113);
+    text-align: center;
+    padding: 20px;
+}
+.youtube-container .videos{
+    display: flex;
+    padding: 20px 0px 30px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.youtube-container .videos .video1, .video2, .video3{
+    width: 31%;
+}
+
+/*-------------FOOTER---------------*/
+.footer{
+    background-color: rgb(0, 0, 66);
+    color: white;
+    padding: 20px 40px;
+    display: block;
+}
+.footer .heading{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(252, 252, 252);
+}
+
+/*-----------LAST FOOTER-----------*/
+.last-footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 90px;
+}
+
+.last-footer-first{
+    margin-right: 100px;
+}
+
+.last-footer-second{
+    margin-right: 100px;
+}
+
+.last-footer-third{
+    margin-right: 300px;
+}
+
+.app-download-container{
+    align-items: center;
+    padding: 50px;
+}
+
+.app-download{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app-download-text{
+    text-align: center;
+    line-height: 0.5px;
+}
+
+.last-footer-first h2{
+    line-height: 25px;
+    font-size: var(--fs-20);
+    font-weight: var(--fw-light);
+    margin: 20px 0px 10px;
+    font-size: 30px;
+}
+
+.last-footer-first li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.last-footer-second h2{
+    line-height: 25px;
+    font-size: var(--fs-20);
+    font-weight: var(--fw-light);
+    margin: 20px 0px 10px;
+    font-size: 30px;
+}
+
+.last-footer-second li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.last-footer-third h2{
+    line-height: 25px;
+    font-size: var(--fs-20);
+    font-weight: var(--fw-light);
+    margin: 20px 0px 10px;
+    font-size: 30px;
+}
+
+.last-footer-third li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.footer-line{
+    padding: 20px 0 20px 0;
+}
+
+/*-------------FINAL FOOTER------------*/
+.final-footer{
+    display: flex;
+}
+.final-footer-left{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.final-footer-mid{
+    width: 700px;
+}
+.final-footer-right{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.final-footer-right i{
+    padding-top: 5px;
+}
